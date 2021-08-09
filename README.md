@@ -27,7 +27,16 @@ After applying these transformations Dataloader is created with batch size of ``
 ![Accuracy](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/Training%20Accuracy.png)
 
 ## Segmentations
-![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/heart.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/heart2.png)
+
+### Input Images
+![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/heart.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/heart2.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/heart3.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/heart4.png)
+
+### Predictions
+![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/pred1.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/pred2.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/pred3.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/pred4.png)
+
+### Ground Truth
+![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/gt1.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/gt2.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/gt3.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/gt4.png)
+
 
 
 ## Authors
