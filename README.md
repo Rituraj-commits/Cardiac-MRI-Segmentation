@@ -26,6 +26,10 @@ After applying these transformations Dataloader is created with batch size of ``
 
 ![Accuracy](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/Training%20Accuracy.png)
 
+## Segmentations
+![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/heart.png)  ![](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/heart2.png)
+
+
 ## Authors
 
 [Rituraj Dutta](riturajdutta400@gmail.com)
