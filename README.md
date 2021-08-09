@@ -11,7 +11,7 @@ Cardiac MRI contains 30 3D Mono-modal MRI images of the left atrium. 2D patches 
 * ```Random Affine```
 * ```Normalization```
 
-After applying these transformations Dataloader is created with batch size of ```16```. The UNet is then trained untill ```30 epochs``` with intial learning rate of ```0.001 ```and ```Cosine Annealing Scheduler```. Early stopping is also applied with patience of 5 to avoid overfitting.
+After applying these transformations Dataloader is created with batch size of ```16```. The UNet is then trained untill ```30 epochs``` with intial learning rate of ```0.001 ```and ```Cosine Annealing Scheduler```. Early stopping is also applied with patience of ```5``` to avoid overfitting.
 
 ## Getting Started
 
@@ -20,6 +20,11 @@ After applying these transformations Dataloader is created with batch size of ``
 * ```pytorch == 1.7.0```
 * ```torchvision == 0.8.0```
 * ```medicaltorch```
+
+## Results
+![Dice Loss](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/Dice_Loss.png)
+
+![Accuracy](https://github.com/Rituraj-commits/Cardiac-MRI-Segmentation/blob/main/image/Training%20Accuracy.png)
 
 ## Authors
 
