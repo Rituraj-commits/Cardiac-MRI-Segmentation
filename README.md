@@ -6,10 +6,10 @@ This repository contains code and results for segmentation performed on the Card
 
 Cardiac MRI contains 30 3D Mono-modal MRI images of the left atrium. 2D patches are generated using ```medicaltorch```. 110 patches with shape ```(320,320)``` are generated and transformations are applied on the patches. The list of transformations applied on the training set:
 
-* CentreCrop2D
-* Elastic Transformation
-* Random Affine
-* Normalization
+* ```**CentreCrop2D**```
+* ```**Elastic Transformation**```
+* ```**Random Affine**```
+* ```**Normalization**```
 
 After applying these transformations Dataloader is created with batch size of ```16```. The UNet is then trained untill ```30 epochs``` with intial learning rate of ```0.001 ```and ```Cosine Annealing Scheduler```. Early stopping is also applied with patience of 5 to avoid overfitting.
 
